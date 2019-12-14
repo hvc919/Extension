@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+  
+    "name": "MyExt",
+    "description": "Good",
+    "version": "1.0.0",
+    "browser_action": {
+      "default_popup": "LoginPage.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": ["activeTab","tabs","storage","http://localhost:1942/*","http://192.168.1.105:1942/*"]
+  }
